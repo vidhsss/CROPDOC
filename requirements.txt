@@ -3,8 +3,8 @@ scipy>=0.15.1
 scikit-learn==0.22.1
 matplotlib>=1.4.3
 pandas>=0.19
-streamlit
+streamlit==0.62.0
 os
-tensorflow
+tensorflow==2.0.0
 glob 
 json
