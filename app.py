@@ -3,7 +3,7 @@ import tensorflow as tf
 st.set_option('depreciation.showfileUploaderEncoding',false)
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model.tf.keras.models.load_model('/ontent/plant_disease.hdf5')
+    model.tf.keras.models.load_model('plant_disease.hdf5')
     return model
 lodel=load_model()
 st.write("""#plant diseases""")
